@@ -1,0 +1,3 @@
+[ 2025-04-15 04:16:59,025 ] 23 root - INFO - Entered in Vocab AI
+[ 2025-04-15 04:16:59,026 ] 7 root - INFO - Entered in News
+[ 2025-04-15 04:16:59,766 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
