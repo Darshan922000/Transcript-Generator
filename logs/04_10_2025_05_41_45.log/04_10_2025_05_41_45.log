@@ -1,8 +1,0 @@
-[ 2025-04-10 05:41:50,942 ] 23 root - INFO - Entered in Vocab AI
-[ 2025-04-10 05:41:50,942 ] 7 root - INFO - Entered in News
-[ 2025-04-10 05:41:56,088 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[ 2025-04-10 05:41:56,101 ] 39 root - INFO - Out from Vocab AI
-[ 2025-04-10 05:43:26,440 ] 23 root - INFO - Entered in Vocab AI
-[ 2025-04-10 05:43:26,440 ] 7 root - INFO - Entered in News
-[ 2025-04-10 05:43:32,969 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[ 2025-04-10 05:43:32,972 ] 39 root - INFO - Out from Vocab AI

@@ -1,13 +1,12 @@
-from vocab_ai.system.graph import vocab
+# from vocab_ai.system.graph import vocab
 import streamlit as st
 from vocab_ai.agents.functions import transcript
 
-def vocabulary(link : str):
-    graph = vocab()
-    response = graph.invoke({"link": link})
-    result = response["vocabs"].content
-    return result
-
+# def vocabulary(link : str):
+#     graph = vocab()
+#     response = graph.invoke({"link": link})
+#     result = response["vocabs"].content
+#     return result
 # Streamlit app setup
 def main():
     # Center the title using HTML
@@ -20,7 +19,9 @@ def main():
         if user_input:
             # result = vocabulary(user_input)
             # Increase font size of the result
+            print(type(user_input))
             result = transcript(user_input)
+            print(result)
             st.markdown(f"<div style='font-size:20px;'>{result}</div>", unsafe_allow_html=True)
         else:
             st.write("Please enter a request.")
